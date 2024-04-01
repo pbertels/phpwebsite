@@ -10,7 +10,7 @@ use Liquid\Template;
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
-use SmartWebsite\GraphMailer;
+use PhpWebsite\GraphMailer;
 use Spyc;
 
 class SmartMailer

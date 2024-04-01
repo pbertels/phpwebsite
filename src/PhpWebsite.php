@@ -10,7 +10,7 @@ use Liquid\Template;
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
-use SmartWebsite\SmartMailer;
+use PhpWebsite\SmartMailer;
 use foroco\BrowserDetection;
 use Spyc;
 

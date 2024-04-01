@@ -8,7 +8,7 @@ class BlogController
 {
 
     private string $blogSlug = '';
-    private SmartWebsite $smart;
+    private PhpWebsite $smart;
     private string $template = '---
     title: Blog
     ---
