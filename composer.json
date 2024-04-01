@@ -1,0 +1,24 @@
+{
+    "name": "pbertels/phpwebsite",
+    "description": "Basic PHP Website - multilingual markdown content - simple chatbot - easy PHP hooks",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Peter Bertels"
+        }
+    ],
+    "require": {
+        "mustangostang/spyc": "^0.6.3",
+        "league/commonmark": "^2.2",
+        "scssphp/scssphp": "^1.6.0",
+        "liquid/liquid": "^1.4",
+        "foroco/php-browser-detection": "^2.3",
+        "jaybizzle/crawler-detect": "^1.2",
+        "php": ">=5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "SmartWebsite\\": "src/"
+        }
+    }
+}
