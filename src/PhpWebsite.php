@@ -533,7 +533,7 @@ class PhpWebsite
             }
             $protocol .= ':';
         }
-        return $protocol . '//' .  $_SERVER['SERVER_NAME'] . $this->subdir . $url;
+        return $protocol . '//' .  $_SERVER['SERVER_NAME'] . ':' . $_SERVER['SERVER_PORT'] . $this->subdir . $url;
     }
 
     public function processCookies()
